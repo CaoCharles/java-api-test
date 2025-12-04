@@ -187,3 +187,20 @@ uvicorn main:app --reload --port 8000
 | 1  | Laptop      | 999.99  | 50    |
 | 2  | Smartphone  | 699.99  | 100   |
 | 3  | Headphones  | 299.99  | 200   |
+
+## 教學文件
+
+詳細的教學說明文件請參考 `docs/` 目錄：
+
+| 文件 | 內容說明 |
+|------|----------|
+| [01-PostgreSQL-Tutorial.md](./docs/01-PostgreSQL-Tutorial.md) | PostgreSQL 資料庫設定、SQL 語法、Docker 設定詳解 |
+| [02-SpringBoot-Tutorial.md](./docs/02-SpringBoot-Tutorial.md) | Java Spring Boot 分層架構、JPA、REST API 開發教學 |
+| [03-FastAPI-Tutorial.md](./docs/03-FastAPI-Tutorial.md) | Python FastAPI 非同步 API Gateway 開發教學 |
+
+每份文件包含：
+- 環境需求與安裝步驟
+- 程式碼架構與設計說明
+- 完整程式碼詳解與註解
+- 執行步驟與測試方法
+- 常見問題與解決方案
